@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
+:root {
+  font-family: "Cairo", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.main-landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-landing img {
+  height: 80%;
+}
+
+.coming {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coming p {
+  font-size: 7rem;
+  font-family: "Cairo", sans-serif;
+  font-weight: bold;
+}
+body {
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  background: linear-gradient(45deg, #2890f3, #2890f3, #0d4b84, #0d4a83);
+  background-size: 300% 300%;
+  animation: gradient-animation 15s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+}
